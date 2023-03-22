@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.splineContainer,
+.spline {
+  height: 100vh;
+  /* cursor: crosshair; */
+  /* cursor: pointer; */
+}
+
+/* html,
+body { */
+/* background-color: blue; */
+/* } */
+
+/* .cursor-pointer {
+  cursor: pointer;
+}
+.cursor-standard {
+  cursor: crosshair;
+} */
