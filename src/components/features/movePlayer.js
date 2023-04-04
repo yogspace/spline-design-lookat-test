@@ -41,8 +41,8 @@ export default function movePlayer(spline, view, lastView, easingType, config) {
     player.rotation.y = point.rotation.y;
     player.rotation.z = point.rotation.z;
 
-    for (let i = 1; i < config.ANMOUNT_OF_CUBES; i++) {
-      const cube = spline.current.findObjectByName(`cube-container-${i}`);
+    for (let i = 0; i < config.ANMOUNT_OF_CUBES; i++) {
+      const cube = spline.current.findObjectByName(`image-container-${i}`);
       cube.emitEvent('lookAt');
     }
 
